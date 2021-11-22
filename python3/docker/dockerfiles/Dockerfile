@@ -1,5 +1,4 @@
 FROM ubuntu:16.04
-RUN  apt-get update
 RUN  apt-get upgrade -y
 # Install python3
 RUN  apt-get install -y python3
